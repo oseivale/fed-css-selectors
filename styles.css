@@ -41,7 +41,25 @@ header {
   text-align: right;
 }
 
-#advanced-selectors ol p{
+#advanced-selectors ol>li{
   padding: 10px;
   background-color: grey;
+}
+
+/* //STUCK ON THIS PORTION */
+
+#advanced-selectors ol li:nth-child(odd) {
+  background-color: green;
+}
+
+a[title=Bitmaker]:hover{
+text-decoration: none;
+}
+
+.exercises ul a:hover {
+  background-color: yellow;
+}
+
+.exercises ul a:active{
+  background-color: red;
 }
